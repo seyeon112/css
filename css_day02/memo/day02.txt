@@ -1,0 +1,19 @@
+font-weight
+- 100 : thin
+- 400 : regular (default)
+- 700 : bold
+- 900 : extra bold
+
+font-size: 텍스트의 크기 설정
+px : 웹에서 제일 작은 단위의 절대 크기
+em : 부모 사이즈를 기준으로 바뀌는 상대적인 크기
+rem : 최상위 사이즈를 기준으로 바뀌는 상대적인 크기
+
+
+
+
+
+
+
+
+

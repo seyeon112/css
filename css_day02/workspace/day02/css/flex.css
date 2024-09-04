@@ -1,0 +1,35 @@
+#flex-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: solid 1px black;
+  /* 메인축 */
+  /* justify-content: space-between; */
+  /* 반대축 */
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+#flex-wrap .box {
+  width: calc(50% - 2px);
+  height: 100px;
+  background-color: green;
+}
+
+/* 
+#flex-wrap .box1 {
+  align-self: end;
+}
+#flex-wrap .box3 {
+  align-self: end;
+}
+#flex-wrap .box5 {
+  align-self: end;
+}
+#flex-wrap .box7 {
+  align-self: end;
+}
+#flex-wrap .box9 {
+  align-self: end;
+} */

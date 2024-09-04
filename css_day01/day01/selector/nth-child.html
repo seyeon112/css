@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nth-child</title>
+  <style>
+    /* 자식 요소중 맨처음 */
+    #container li:first-child{
+      color: purple;
+    }
+
+    #container li:last-child{
+      color: purple;
+    }
+    
+    #container li:nth-child(-n+5){
+      color: blue;
+    }
+
+
+  </style>
+</head>
+<body>
+  <ul id="container">
+    <li>container의 자식</li>
+    <p></p>
+    <li>container의 자식</li>
+    <li>container의 자식</li>
+    <li>container의 자식</li>
+    <p></p>
+    <li>container의 자식</li>
+    <li>container의 자식</li>
+    <p></p>
+    <li>container의 자식</li>
+    <p></p>
+    <li>container의 자식</li>
+  </ul>
+</body>
+</html>

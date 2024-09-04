@@ -1,0 +1,53 @@
+flex(Flexible box, flex box)
+- 요소의 크기와 순서를 유연하게 수정할 수 있으며, 한 줄에 요소를 배치하는 속성
+단, 요소의 크기보다 브라우저 크기가 작아지면 한 줄에 꽉차보이도록 조절한다.
+
+display : flex, inline-flex
+- flex : 요소 이외에 요소가 flex 요소 밑으로 떨어지는 블록 속성을 가진다.
+- inline-flex : 요소 이외의 요소가 flex 요소 옆으로 붙으며 인라인 속성을 가진다.
+
+flex-direction : column, row, column-reverse, row-reverse
+- flex container가 가지고 있는 자식요소를 어떤 형태로 배치할 지 정하는 속성이다.
+
+	메인 축 main axis
+	- flex 선언 시 정렬되는 정렬방향을 의미한다.
+	- justify-content
+	크로스 축 cross axis
+	- flex 선언 시 정렬되는 반대 정렬방향을 의미한다.
+	- align-items
+
+flex-wrap : wrap, no-wrap
+- flex container가 가지고 있는 자식 요소의 크기가 부모보다 넘칠 때 어떻게 처리할 지 정하는 속성이다.
+
+order : 1, 2, 3 ...
+자식 요소가 가지는 요소의 순서를 강제로 정할 때 사용하는 속성
+
+flex-grow : 남은 공간을 얼마나 차지할 지 정하는 속성(default = 0)
+flex-shrink : 플렉스 항목의 축소 요소를 설정하는 속성
+flex-basis : 박스 아이템의 브라우저 width에 따른 비율을 지정해주는 속성
+flex : grow, shrink, basis의 약식 속성
+flex: 1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
